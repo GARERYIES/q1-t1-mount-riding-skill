@@ -1,0 +1,49 @@
+{
+  "status": "bounded_training_finished",
+  "accepted_updates": 16,
+  "environment_steps": 65536,
+  "wall_s": 492.5274074948393,
+  "formal_success": null,
+  "dr_history": [
+    {
+      "update": 0,
+      "friction_scale": 1.0547912097111927,
+      "pd_gain_scale": 0.9938878439752052,
+      "root_position_half_range_m": 0.01,
+      "joint_angle_half_range_rad": 0.034906585,
+      "mass_scale": null,
+      "mass_randomization_status": "deferred: shared MuJoCo Warp model has no per-world mass field",
+      "reset_scope": "all_128_worlds_at_episode_boundary"
+    },
+    {
+      "update": 4,
+      "friction_scale": 1.0833360568998736,
+      "pd_gain_scale": 1.014939261710774,
+      "root_position_half_range_m": 0.01,
+      "joint_angle_half_range_rad": 0.034906585,
+      "mass_scale": null,
+      "mass_randomization_status": "deferred: shared MuJoCo Warp model has no per-world mass field",
+      "reset_scope": "all_128_worlds_at_episode_boundary"
+    },
+    {
+      "update": 8,
+      "friction_scale": 0.9389363393723902,
+      "pd_gain_scale": 1.0224242575726898,
+      "root_position_half_range_m": 0.01,
+      "joint_angle_half_range_rad": 0.034906585,
+      "mass_scale": null,
+      "mass_randomization_status": "deferred: shared MuJoCo Warp model has no per-world mass field",
+      "reset_scope": "all_128_worlds_at_episode_boundary"
+    },
+    {
+      "update": 12,
+      "friction_scale": 1.001359749373121,
+      "pd_gain_scale": 1.0028036647512366,
+      "root_position_half_range_m": 0.01,
+      "joint_angle_half_range_rad": 0.034906585,
+      "mass_scale": null,
+      "mass_randomization_status": "deferred: shared MuJoCo Warp model has no per-world mass field",
+      "reset_scope": "all_128_worlds_at_episode_boundary"
+    }
+  ]
+}

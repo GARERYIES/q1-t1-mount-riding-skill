@@ -1,0 +1,45 @@
+{
+  "schema": "q1-t1-mount-riding-skill-config-v1",
+  "skill": "q1_t1_mount_and_ride",
+  "description": "Validated local-support crossing followed by forward-lean T1 support hold.",
+  "paths": {
+    "model": "model/scene.xml",
+    "actor": "checkpoints/handload_actor.ts",
+    "reference": "data/reference_B.npz",
+    "initial_state": "data/initial_state_B_t3.npz",
+    "contract": "data/control_contract_v1.json",
+    "validated_trajectory": "data/handload_cross17_trajectory.npz",
+    "validated_metrics": "data/handload_cross17_metrics.jsonl.gz"
+  },
+  "expected_sha256": {
+    "model/scene.xml": "020619a3cf47d296034f6f62bd4f26bb7b60ceae1fbd74adff662baf4f92af17",
+    "checkpoints/handload_actor.ts": "9a671c257b765c37237c65736148fe2abb468624828401893559a47c56afb0b0",
+    "data/handload_cross17_trajectory.npz": "50af0d4488402b5a1caa2103d697e9f2e76001cdb69ff5b3d4bb88bab99550f3"
+  },
+  "execution": {
+    "start_reference_s": 6.0,
+    "initial_qpos_sha256": "8984692a4f6afa06cad536868886c3710213d93fa04cca2b3dd50c7be0893e1e",
+    "candidate_accepted": 16,
+    "split_left_mode": "B",
+    "policy_hz": 50.0,
+    "native_dt_s": 0.001,
+    "duration_s": 17.0,
+    "right_ankle_command_lower_inset_rad": 0.03
+  },
+  "crossing": {
+    "seen_near_y_m": 0.05,
+    "crossed_y_m": -0.05,
+    "crossed_x_max_m": -0.18
+  },
+  "safety": {
+    "root_height_min_m": 0.2,
+    "t1_tilt_max_deg": 30.0,
+    "finite_state_required": true
+  },
+  "demo": {
+    "start_type": "saved_local_support",
+    "ordinary_standing_start_supported": false,
+    "temporary_foot_support": true,
+    "formal_legal_hold_claimed": false
+  }
+}

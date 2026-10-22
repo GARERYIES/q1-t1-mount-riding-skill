@@ -1,0 +1,27 @@
+{
+  "schema": "q1-t1-light-domain-randomization-v1",
+  "scope": "Nominal and small manufacturing/control perturbations only.",
+  "mass_scale": {
+    "low": 0.97,
+    "high": 1.03
+  },
+  "contact_friction_scale": {
+    "low": 0.90,
+    "high": 1.10
+  },
+  "pd_gain_scale": {
+    "low": 0.95,
+    "high": 1.05
+  },
+  "initial_root_offset_m": 0.01,
+  "initial_joint_angle_rad": 0.034906585,
+  "reference_phase_jitter_s": 0.02,
+  "excluded": [
+    "large external pushes",
+    "extreme slopes",
+    "jumps",
+    "large terrain changes",
+    "unbounded mass or friction changes"
+  ],
+  "promotion_rule": "A randomized candidate must preserve nominal crossing and improve native support-retention without increasing dangerous or unapproved T1 contacts."
+}

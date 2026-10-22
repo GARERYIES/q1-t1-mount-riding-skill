@@ -1,0 +1,22 @@
+{
+  "schema": "q1-t1-light-dr-ppo-v1",
+  "scope": "bounded 16-update nominal-time DR screen",
+  "parent": "checkpoints/handload_checkpoint.pt",
+  "parent_sha256": "c6ca93721d0b36315830ff8c7cada7801c8e9bb26f0f735decdcfd39d3de2991",
+  "worlds": 128,
+  "updates": 16,
+  "steps": 32,
+  "wall_seconds": 1200.0,
+  "resample_every_updates": 4,
+  "seed": 42,
+  "reference": "research_dataset:B64_right2x_handload_course_v1/inputs/nominal_reference_B_right4.npz",
+  "reference_sha256": "6f2d786a8a8ca8aeb1b183cf289bfe63f37977e1f62babb10431f6eaa6780969",
+  "retention": "research_dataset:B64_right2x_handload_course_v1/inputs/retention247.npz",
+  "retention_sha256": "6183d1186e02850cf7f38602ceaab4c8f7cbc37df0f8c6b7f687e426fd027526",
+  "model": "model/scene.xml",
+  "model_sha256": "020619a3cf47d296034f6f62bd4f26bb7b60ceae1fbd74adff662baf4f92af17",
+  "dr_contract": "configs/dr_light.json",
+  "mass_status": "deferred; shared model cannot represent per-world mass safely",
+  "training_eligible": true,
+  "teacher_eligible": false
+}

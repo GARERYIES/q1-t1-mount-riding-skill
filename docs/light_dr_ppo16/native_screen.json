@@ -1,0 +1,212 @@
+{
+  "schema": "q1-t1-light-dr-screen-v1",
+  "scope": "Nominal plus bounded light-randomization PPO16 candidate screen.",
+  "duration_per_case_s": 17.0,
+  "cases": [
+    {
+      "profile": "none",
+      "seed": 0,
+      "duration_s": 16.999999999997794,
+      "first_guard": null,
+      "crossing_completed": true,
+      "crossing_complete_s": 4.899999999999971,
+      "final": {
+        "left_palm_Fz_N": 0.0,
+        "right_palm_Fz_N": 0.0,
+        "seat_Fz_N": 31.009037959465154,
+        "left_foot_Fz_N": 8.632766770487658,
+        "right_foot_Fz_N": 36.73767867067669,
+        "unapproved_T1_Fn_N": 90.39717864804282,
+        "time_s": 16.999999999997794,
+        "phase": "post_cross_support_hold",
+        "crossed": true,
+        "root_height_m": 0.25015016264485734,
+        "T1_tilt_deg": 3.1573213555026647,
+        "permission": {
+          "role": true,
+          "mode": "B",
+          "crossed": true,
+          "seen_near": true,
+          "permission_age_ticks": 599,
+          "was_eligible": true,
+          "gains8": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "left_permission_age_ticks": 713,
+          "left_mapping_age_ticks": 713,
+          "phase_s": 22.999999999997794,
+          "last_native_pre_geometry": {
+            "foot_T1_local_m": [
+              -0.2198422137610875,
+              -0.20890163002409173,
+              -0.10504768816421947
+            ],
+            "force_geometry_time_s": 16.998999999997793
+          },
+          "no_oracle_actor_observations": true
+        }
+      }
+    },
+    {
+      "profile": "light",
+      "seed": 1,
+      "duration_s": 16.999999999997794,
+      "first_guard": null,
+      "crossing_completed": true,
+      "crossing_complete_s": 5.100000000000038,
+      "final": {
+        "left_palm_Fz_N": 0.0,
+        "right_palm_Fz_N": 0.0,
+        "seat_Fz_N": 29.853600517801734,
+        "left_foot_Fz_N": 22.75143845102629,
+        "right_foot_Fz_N": 0.0,
+        "unapproved_T1_Fn_N": 159.30195496606598,
+        "time_s": 16.999999999997794,
+        "phase": "post_cross_support_hold",
+        "crossed": true,
+        "root_height_m": 0.27977971454505923,
+        "T1_tilt_deg": 3.418553258430185,
+        "permission": {
+          "role": true,
+          "mode": "B",
+          "crossed": true,
+          "seen_near": true,
+          "permission_age_ticks": 595,
+          "was_eligible": true,
+          "gains8": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "left_permission_age_ticks": 713,
+          "left_mapping_age_ticks": 713,
+          "phase_s": 22.999999999997794,
+          "last_native_pre_geometry": {
+            "foot_T1_local_m": [
+              -0.29862956956642783,
+              0.05433934087246767,
+              -0.04020731056801431
+            ],
+            "force_geometry_time_s": 16.998999999997793
+          },
+          "no_oracle_actor_observations": true
+        }
+      }
+    },
+    {
+      "profile": "light",
+      "seed": 2,
+      "duration_s": 16.999999999997794,
+      "first_guard": null,
+      "crossing_completed": true,
+      "crossing_complete_s": 4.739999999999918,
+      "final": {
+        "left_palm_Fz_N": 0.0,
+        "right_palm_Fz_N": 0.0,
+        "seat_Fz_N": 0.0,
+        "left_foot_Fz_N": 51.55397782157934,
+        "right_foot_Fz_N": 0.0,
+        "unapproved_T1_Fn_N": 133.89386543699786,
+        "time_s": 16.999999999997794,
+        "phase": "post_cross_support_hold",
+        "crossed": true,
+        "root_height_m": 0.3052508356379556,
+        "T1_tilt_deg": 2.809261771063749,
+        "permission": {
+          "role": true,
+          "mode": "B",
+          "crossed": true,
+          "seen_near": true,
+          "permission_age_ticks": 599,
+          "was_eligible": true,
+          "gains8": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "left_permission_age_ticks": 713,
+          "left_mapping_age_ticks": 713,
+          "phase_s": 22.999999999997794,
+          "last_native_pre_geometry": {
+            "foot_T1_local_m": [
+              -0.4090884387334271,
+              0.033411390935914984,
+              0.012161992363063102
+            ],
+            "force_geometry_time_s": 16.998999999997793
+          },
+          "no_oracle_actor_observations": true
+        }
+      }
+    },
+    {
+      "profile": "light",
+      "seed": 3,
+      "duration_s": 16.999999999997794,
+      "first_guard": null,
+      "crossing_completed": true,
+      "crossing_complete_s": 4.899999999999971,
+      "final": {
+        "left_palm_Fz_N": 0.0,
+        "right_palm_Fz_N": 0.0,
+        "seat_Fz_N": 0.0,
+        "left_foot_Fz_N": 32.71321166512221,
+        "right_foot_Fz_N": 0.0,
+        "unapproved_T1_Fn_N": 196.82916489181827,
+        "time_s": 16.999999999997794,
+        "phase": "post_cross_support_hold",
+        "crossed": true,
+        "root_height_m": 0.28276606677472993,
+        "T1_tilt_deg": 3.0952946063925744,
+        "permission": {
+          "role": true,
+          "mode": "B",
+          "crossed": true,
+          "seen_near": true,
+          "permission_age_ticks": 599,
+          "was_eligible": true,
+          "gains8": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "left_permission_age_ticks": 713,
+          "left_mapping_age_ticks": 713,
+          "phase_s": 22.999999999997794,
+          "last_native_pre_geometry": {
+            "foot_T1_local_m": [
+              -0.3040465832067656,
+              0.04559206345248512,
+              -0.04016793177684339
+            ],
+            "force_geometry_time_s": 16.998999999997793
+          },
+          "no_oracle_actor_observations": true
+        }
+      }
+    }
+  ],
+  "promotion": null
+}
